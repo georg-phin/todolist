@@ -117,7 +117,7 @@ class ToDoListScreen extends StatelessWidget {
                             onTap: () {
                               flushi(_done ? _c.unCompletedC : _c.completedC,
                                   context, 1000);
-                              _t.deleteTask(_key);
+                              _t.doneUndone(_key);
                             },
                           ),
                           IconSlideAction(
